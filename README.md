@@ -1,0 +1,8 @@
+🖼️ Image Resizer Tool
+The Image Resizer Tool is a Python-based utility designed to automate the process of resizing and converting images in batch. It uses the powerful **Pillow** library to handle image processing, allowing users to quickly process multiple images in a single run. This tool is useful for photographers, developers, or anyone who needs to prepare images for websites, presentations, or projects without manually editing each file.  
+
+The project has a simple folder structure. The `images/` folder is where all input images should be placed. The `output/` folder is where resized and converted images will be stored. The main script, `resize.py`, handles resizing and format conversion, while `create_images.py` is an optional helper script to generate sample images for testing purposes.  
+
+To use the tool, Python 3.x and the Pillow library are required. Pillow can be installed using the command `pip install pillow`. If you do not have any images to test, you can run `create_images.py`, which will automatically generate sample images inside the `images/` folder. After placing your images in the `images/` folder or generating them, running the main script `resize.py` will process all supported image files. By default, images are resized to 300x300 pixels and converted to JPEG format, with the results saved in the `output/` folder.  
+
+Resizing settings such as dimensions and output format can be easily configured by modifying the `SIZE` and `FORMAT` variables inside `resize.py`. This tool provides a fast, efficient, and automated way to manage large numbers of images, saving time and effort for repetitive image editing tasks. The Image Resizer Tool is an ideal solution for batch image resizing and format conversion.
